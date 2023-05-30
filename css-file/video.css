@@ -50,12 +50,12 @@
     row-gap: 40px;
   }
 
-  @media (max-width:680px){
+  @media (max-width:414px){
     .video-grid{
       grid-template-columns: 1fr 1fr;
     }
   }
-  @media (max-width:800px) and (min-width:999px){
+  @media (max-width:768px) and (min-width:1024px){
     .video-grid{
       grid-row: 1fr 1fr 1fr;
     }
